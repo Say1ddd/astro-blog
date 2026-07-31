@@ -8,9 +8,7 @@ import UnoCSS from 'unocss/astro'
 export default defineConfig({
   // Enable Vue to support Vue components.
   integrations: [
-    vue({
-      devtools: true,
-    }),
+    vue(),
     UnoCSS(),
   ],
 })
