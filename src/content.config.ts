@@ -10,7 +10,7 @@ const baseSchema = {
 	draft: z.coerce.boolean(),
 }
 
-const relatedReferencesSchema = z.array(reference("references")).default([])
+const relatedReferencesSchema = z.array(reference('references')).nullable().default([])
 
 // references collection
 const references = defineCollection({
