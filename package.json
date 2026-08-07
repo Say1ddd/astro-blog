@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "init-content": "node scripts/init-content.mjs"
   },
   "dependencies": {
     "@astrojs/netlify": "^8.2.0",

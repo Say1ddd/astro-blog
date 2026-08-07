@@ -25,3 +25,8 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# add content initialization files to ignored list
+public/content-assets
+src/content
+.content
