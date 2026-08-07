@@ -1,6 +1,7 @@
 ---
 // Component Imports
 import Counter from '../components/Counter.vue'
+import ServerExampleAstroComponent from '../components/ServerExample.vue'
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -29,6 +30,7 @@ import Counter from '../components/Counter.vue'
       <Counter client:visible>
         <h1>Hello, Vue!</h1>
       </Counter>
+      <ServerExampleAstroComponent server:defer />
     </main>
   </body>
 </html>
